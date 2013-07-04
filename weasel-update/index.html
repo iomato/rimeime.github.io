@@ -31,7 +31,8 @@
 
 
   <div id="content" class="inner">
-    <div id="wrapper"><article class="page">
+    <div id="wrapper">
+<article class="page">
   
   <div class="post-content">
     <header>
@@ -45,6 +46,18 @@
     <div class="entry">
       
         <p>RIME 主頁： <a href="http://code.google.com/p/rimeime/">http://code.google.com/p/rimeime/</a></p>
+<h2>小狼毫 0.9.24 <2013-07-04></h2>
+<ul>
+<li>新增：支持全角模式</li>
+<li>更新：中古漢語【全拼】【三拼】輸入方案；三拼亦採用全拼詞典</li>
+<li>修復：大陸與臺灣異讀的字「微」「檔」「蝸」「垃圾」等</li>
+<li>修復：繁簡轉換錯詞「么么哒」</li>
+<li>新增：（輸入方案設計用）可設定對特定類型的候選詞不做繁簡轉換
+如不轉換反查字使用選項 <code>simplifier/excluded_types: [ reverse_lookup ]</code></li>
+<li>新增：（輸入方案設計用）干預多個 translator 之間的結果排序
+選項 <code>translator/initial_quality: 0</code></li>
+<li>修復：用戶詞典未能完整支持 <code>derive</code> 拼寫運算產生的歧義切分</li>
+</ul>
 <h2>小狼毫 0.9.23 <2013-06-09></h2>
 <ul>
 <li>改進：方案選單按選用輸入方案的時間排列</li>
@@ -318,42 +331,9 @@
 
       
     </div>
-    <footer>
-      
-        
-        
-        
-  <div class="addthis addthis_toolbox addthis_default_style">
-    
-      <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-    
-    
-      <a class="addthis_button_tweet"></a>
-    
-    
-      <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-    
-    
-      <a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
-    
-    <a class="addthis_counter addthis_pill_style"></a>
-  </div>
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
 
-      
-      <div class="clearfix"></div>
-    </footer>
   </div>
 </article>
-
-
-  
-<section id="comment">
-  <h1 class="title">留言</h1>
-  <div id="disqus_thread">
-    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
-</section>
 
 
 </div>
